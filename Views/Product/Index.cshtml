@@ -1,0 +1,25 @@
+﻿@{
+    List<Product> products = Model;
+}
+
+<section id="products">
+    <div class="container">
+
+        <div class="row" id="productList">
+            <partial name="_ProductPartial" model="Model" />
+        </div>
+
+    </div>
+    <button class="btn btn-primary justify-content-center" id="loadMore">Load More</button>
+</section>
+
+
+
+
+<script src="~/js/fetch.js" asp-append-version="true"></script>
+
+ 
+
+
+
+
